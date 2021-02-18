@@ -3,7 +3,7 @@
 ## Install  
 
 Place the folder at the root of your project and rename it "docker".
-Note : You need to have .env.dev
+Note : You need to have .env.local
 
 ## Versions
 
