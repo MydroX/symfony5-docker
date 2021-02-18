@@ -1,9 +1,9 @@
-# Docker Symfony 5 with Nginx- PHP- MySQL
+# Docker Symfony 5 with Nginx - PHP - MySQL
 
 ## Install  
 
-Place the folder at the root of your project and rename it "docker".
-Note : You need to have .env.local
+Place the folder at the root of your project and rename it "docker".<br>
+Copy .env.local.example and remane it .env.local at the root of your project
 
 ## Versions
 
