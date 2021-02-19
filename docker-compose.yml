@@ -38,7 +38,7 @@ services:
     ports: 
       - 3306:3306
     volumes: 
-      - dbdata:/var/lib/mysql
+      - db-data:/var/lib/mysql
     env_file: 
       - ../.env.local
     restart: unless-stopped
@@ -50,5 +50,4 @@ networks:
     external: true
 
 volumes:
-  dbdata:
-    driver: local
+  db-data:
